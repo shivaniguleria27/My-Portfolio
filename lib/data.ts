@@ -41,14 +41,22 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2025",
   },
-  {
-    title: "Student Activity Center (SAC) Framework Creator",
-    location: "Kota, Rajasthan",
-    description:
-      "I designed and developed the SAC framework , enabling the creation and management of clubs, activities, and ensuring data privacy between different club admins. This project honed my skills in front-end development and project management.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2024 - 2025",
-  },
+{
+  title: "B&IYA – Innovation & Legal Collaboration Platform",
+  location: "Kota, Rajasthan",
+  description:
+    "I designed and developed B&IYA, a platform aimed at bridging the gap between inventors, attorneys, and innovators. With a user-centric interface and intuitive features, it streamlines collaboration and enhances connection among legal professionals and creators. This project enhanced my skills in front-end development, UX/UI design, and real-world product implementation.",
+  techStack: [
+    "Next.js", 
+    "Tailwind CSS", 
+    "React", 
+    "JavaScript", 
+    "Framer Motion", 
+    "Vercel (Deployment)"
+  ],
+  icon: React.createElement(CgWorkAlt),
+  date: "2024 – 2025",
+}
 ] as const;
 
 export const projectsData = [
