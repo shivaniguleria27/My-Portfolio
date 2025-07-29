@@ -43,7 +43,7 @@ export const experiencesData = [
   },
 {
   title: "B&IYA – Innovation & Legal Collaboration Platform",
-  location: "Kota, Rajasthan",
+  location: " Jaipur Rajasthan",
   description:
     "I designed and developed B&IYA, a platform aimed at bridging the gap between inventors, attorneys, and innovators. With a user-centric interface and intuitive features, it streamlines collaboration and enhances connection among legal professionals and creators. This project enhanced my skills in front-end development, UX/UI design, and real-world product implementation.",
   techStack: [
@@ -74,12 +74,11 @@ export const projectsData = [
     imageUrl: portfImg,
   },
   {
-    title: "SAC framework",
-    description: `Developed a scalable, multi-user platform for managing student clubs and tracking their activities, incorporating
-robust data security measures.`,
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: corpcommentImg,
-  },
+  title: "B&IYA – Innovation & Legal Collaboration Platform",
+  description: `Built a user-centric platform to streamline collaboration between inventors, attorneys, and innovators. Focused on intuitive UI/UX, smooth interaction flow, and scalable front-end architecture to support legal and creative professionals.`,
+  tags: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "JavaScript"],
+  imageUrl: corpcommentImg, // Replace with your actual image import or file reference
+}
 ] as const;
 
 export const skillsData = [
