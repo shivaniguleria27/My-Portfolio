@@ -37,7 +37,7 @@ export const experiencesData = [
     title: "Graduated from RTU Kota",
     location: "Rajasthan, India",
     description:
-      "I will graduate in April 2025 after completing my engineering degree. I'm excited to pursue a career as a front-end developer and bring my skills to the industry.",
+     "I successfully completed my engineering degree in MAY 2025. With a strong foundation in front-end development, I am now eager to contribute my skills and creativity to the tech industry.",
     icon: React.createElement(LuGraduationCap),
     date: "2025",
   },
