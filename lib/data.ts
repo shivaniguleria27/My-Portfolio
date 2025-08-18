@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { LuGraduationCap } from "react-icons/lu";
+import { LuLaptop } from "react-icons/lu";
 import portfImg from "@/public/portf.png";
 import corpcommentImg from "@/public/corpcomment.png";
 import gamingImg from "@/public/gaming.png";
@@ -33,14 +33,15 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
-    title: "Graduated from RTU Kota",
-    location: "Rajasthan, India",
+{
+    title: "Freelance Frontend Developer",
+    location: "Remote",
     description:
-     "I successfully completed my engineering degree in MAY 2025. With a strong foundation in front-end development, I am now eager to contribute my skills and creativity to the tech industry.",
-    icon: React.createElement(LuGraduationCap),
+      "Worked on freelance projects where I built modern, responsive UIs from scratch using Next.js and Tailwind CSS. Translated Figma designs into production-ready components and optimized performance with SSR/SSG and lazy loading.",
+    icon: React.createElement(LuLaptop),
     date: "2025",
-  },
+},
+
 {
   title: "B&IYA – Innovation & Legal Collaboration Platform",
   location: " Jaipur Rajasthan",
