@@ -66,6 +66,7 @@ export const projectsData = [
     description: `An award-winning interactive design brought to live website featuring engaging animations and responsive design.`,
     tags: ["React", "Next.js", "MongoDB", "Tailwind", ],
     imageUrl: gamingImg,
+    link:"https://gamify-site.vercel.app/"
   },
   {
     title: "Portfolio -Website",
@@ -73,12 +74,15 @@ export const projectsData = [
       "Developed a fully responsive and customizable personal portfolio website with the latest technologies and responsive design.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", ],
     imageUrl: portfImg,
+    link:"https://my-portfolio-241.vercel.app/"
   },
   {
   title: "B&IYA – Innovation & Legal Collaboration Platform",
   description: `Built a user-centric platform to streamline collaboration between inventors, attorneys, and innovators. Focused on intuitive UI/UX, smooth interaction flow, and scalable front-end architecture to support legal and creative professionals.`,
   tags: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "JavaScript"],
-  imageUrl: corpcommentImg, // Replace with your actual image import or file reference
+  imageUrl: corpcommentImg,
+   // Replace with your actual image import or file reference
+   link:"https://bandiya-frontend.vercel.app/"
 }
 ] as const;
 
