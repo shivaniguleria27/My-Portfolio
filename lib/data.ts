@@ -61,13 +61,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "gaming- Website",
-    description: `An award-winning interactive design brought to live website featuring engaging animations and responsive design.`,
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", ],
-    imageUrl: gamingImg,
-    link:"https://gamify-site.vercel.app/"
-  },
+{
+  title: "Mental Health AI Coach",
+  description: `An AI-powered mental wellness platform designed to support emotional well-being through empathetic conversations, guided self-reflection, and personalized insights using Generative and Agentic AI.`,
+  tags: ["Next.js", "React", "Python", "Generative AI", "Agentic AI", "Tailwind"],
+  imageUrl: gamingImg,
+  link: "https://ai-mental-health-three.vercel.app/"
+},
   {
     title: "Portfolio -Website",
     description:
@@ -90,17 +90,16 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
+   "Generative AI",
+  "Agentic AI",
   "Python",
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
+ 
   "Git",
   "Tailwind",
   "Django",
-  "Django REST framework",
-  "Express",
-  "Framer Motion",
   "Figma",
   "SCSS",
 ] as const;
